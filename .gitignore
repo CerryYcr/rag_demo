@@ -1,0 +1,8 @@
+.venv/
+chroma_db/
+faiss_index.bin
+faiss_index.bin.meta
+loaded_docs_cache.pkl
+loaded_docs_hash.txt
+__pycache__/
+*.pyc
