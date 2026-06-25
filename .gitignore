@@ -6,3 +6,6 @@ loaded_docs_cache.pkl
 loaded_docs_hash.txt
 __pycache__/
 *.pyc
+intent_history.jsonl
+logs/
+reports/
