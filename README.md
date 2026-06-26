@@ -82,7 +82,25 @@ rag_demo/
 ├── requirements.txt               # 依赖清单
 └── README.md                      # 项目说明
 ```
+---
 
+## 仓库结构
+
+```
+rag_demo/
+├── rag_demo_upgrade.py         # 主程序（核心）
+├── intent_memory.py            # 意图记忆模块
+├── evaluate_offline.py         # 离线评估
+├── diagnose_offline.py         # 诊断工具
+├── debug_pptx.py               # PPTX 诊断
+├── data/test_qa.jsonl          # 测试集
+├── logs/                       # 运行日志
+├── reports/                    # 评估报告
+├── docs/                       # 源文档目录
+├── .gitignore                  # Git忽略
+├── requirements.txt            # 依赖清单
+└── README.md                   # 项目说明
+```
 ---
 
 ## 技术栈
